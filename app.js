@@ -2,7 +2,7 @@ const http = require("http");
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "text/play" });
-  res.write("모츠");
+  res.write("모오츠으");
   //설명한다.
   res.end();
 });
